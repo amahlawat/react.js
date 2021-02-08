@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import ReducerEx from './components/useReducerEx';
+import Form from './components/DynamicForm/Form';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Form />
   </React.StrictMode>,
   document.getElementById('root')
 );
